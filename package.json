@@ -1,0 +1,27 @@
+{
+  "name": "md-task-list-estimation",
+  "version": "1.0.0",
+  "description": "计算 markdown 任务列表的时间",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild ./src/index.js --bundle --outfile=index.js --platform=node --format=esm",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdast-util-to-markdown": "^2.1.2",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
