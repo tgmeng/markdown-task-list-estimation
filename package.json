@@ -1,5 +1,5 @@
 {
-  "name": "md-task-list-estimation",
+  "name": "markdown-task-list-estimation",
   "version": "1.0.0",
   "description": "计算 markdown 任务列表的时间",
   "exports": {
