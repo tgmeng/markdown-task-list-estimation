@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "计算 markdown 任务列表的时间",
   "bin": {
-    "markdown-task-list-estimation": "./index.js"
+    "markdown-task-list-estimation": "./cli/index.js"
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild ./src/index.js --bundle --outfile=index.js --platform=node --format=esm",
-    "prepublishOnly": "pnpm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -22,9 +20,6 @@
     "unist-util-visit": "^5.0.0"
   },
   "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "esbuild": "^0.25.1"
-  }
+    "cli"
+  ]
 }
