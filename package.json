@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "计算 markdown 任务列表的时间",
   "bin": {
-    "markdown-task-list-estimation": "./cli/index.js"
+    "markdown-task-list-estimation": "./bin/index.js"
   },
   "type": "module",
   "scripts": {
@@ -20,6 +20,6 @@
     "unist-util-visit": "^5.0.0"
   },
   "files": [
-    "cli"
+    "bin"
   ]
 }
